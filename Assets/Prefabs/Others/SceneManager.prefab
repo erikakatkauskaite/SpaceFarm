@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7509751843443788637
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7509751843443788639}
+  - component: {fileID: 7509751843443788638}
+  - component: {fileID: 7509751843443788608}
+  m_Layer: 0
+  m_Name: SceneManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7509751843443788639
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7509751843443788637}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7509751843443788638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7509751843443788637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd970bfaa71e1f240a8031299381c3a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  savingData: {fileID: 0}
+--- !u!114 &7509751843443788608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7509751843443788637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: babae16dbb3b878418c2d2dc93753663, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicSounds:
+  - name: Background
+    clip: {fileID: 8300000, guid: 251176f60760b9047a2095876b7c8055, type: 3}
+    source: {fileID: 0}
+  vfxSounds:
+  - name: Collect
+    clip: {fileID: 8300000, guid: ae73d6c1c20625b40b7a08f451b0c84f, type: 3}
+    source: {fileID: 0}
+  - name: Select
+    clip: {fileID: 8300000, guid: b93c693b12effa94a8746cc0d23940de, type: 3}
+    source: {fileID: 0}
+  - name: Toggle
+    clip: {fileID: 8300000, guid: db4b7462635a2464f969e57c28573a3c, type: 3}
+    source: {fileID: 0}
+  - name: Coins
+    clip: {fileID: 8300000, guid: 22c9d7d05f6dab54b82910e8de3b6c69, type: 3}
+    source: {fileID: 0}
+  - name: Win
+    clip: {fileID: 8300000, guid: e085c3267cac05c41aef1a757f8669e1, type: 3}
+    source: {fileID: 0}
+  - name: Lose
+    clip: {fileID: 8300000, guid: 8e151eb52df97ba4dbcb0a29c3a70314, type: 3}
+    source: {fileID: 0}
+  - name: Rocket
+    clip: {fileID: 8300000, guid: dd5eb66e42b6b084ea6b1d5e0fc6865b, type: 3}
+    source: {fileID: 0}
+  - name: Danger
+    clip: {fileID: 8300000, guid: 20a3957d5107cc64a8af6a6deca5aac2, type: 3}
+    source: {fileID: 0}
+  musicAudioMixer: {fileID: 24100000, guid: 99d3019b449159c47b519939afd64876, type: 2}
+  vfxAudioMixer: {fileID: 24100000, guid: 9288dd78c7f62474c82a00b4a676c1de, type: 2}
+  musicGroup: {fileID: 24300002, guid: 99d3019b449159c47b519939afd64876, type: 2}
+  vfxGroup: {fileID: 24300002, guid: 9288dd78c7f62474c82a00b4a676c1de, type: 2}
